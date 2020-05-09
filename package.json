@@ -1,0 +1,37 @@
+{
+  "name": "sahid-life",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@symfony/webpack-encore": "^0.29.1",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.0.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-import-resolver-webpack": "^0.12.1",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "node-sass": "^4.14.1",
+    "path": "^0.12.7",
+    "sass-loader": "^7.0.1",
+    "vue-loader": "^15.0.11",
+    "vue-template-compiler": "^2.6.11",
+    "webpack-notifier": "^1.6.0"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11"
+  },
+  "scripts": {
+    "encore": "encore",
+    "build:development": "encore dev",
+    "build:dev": "npm run build:development",
+    "build:watch": "encore dev --watch",
+    "build:production": "encore production",
+    "build:prod": "npm run build:production"
+  },
+  "author": "",
+  "license": "ISC"
+}
